@@ -9,7 +9,7 @@ target 'LoremPicsum' do
   # ignore all warnings from all pods
   inhibit_all_warnings!
   
-  # Pods for WeatherInfo
+  # Pods for LoremPicsum
   pod 'SwiftLint' #used for linting
   pod 'SnapKit' #used for auto-layoutting on code
   
