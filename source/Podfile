@@ -3,6 +3,12 @@ platform :ios, '14.0'
 workspace 'LoremPicsum'
 use_frameworks!
 
+def shared
+  use_frameworks!
+  pod 'SwiftLint' #used for linting
+  pod 'SnapKit' #used for auto-layoutting on code
+end
+
 target 'LoremPicsum' do
   project 'LoremPicsum/LoremPicsum.xcodeproj'
   
@@ -10,16 +16,16 @@ target 'LoremPicsum' do
   inhibit_all_warnings!
   
   # Pods for LoremPicsum
-  pod 'SwiftLint' #used for linting
-  pod 'SnapKit' #used for auto-layoutting on code
+  shared
   
   target 'LoremPicsumTests' do
     inherit! :search_paths
-    # Pods for testing
+    shared
   end
 
   target 'LoremPicsumUITests' do
     inherit! :search_paths
+    shared
   end
   
 end

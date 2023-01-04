@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -61,6 +61,14 @@
 		DE4157562964BEEE00E0F566 /* ImageElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE57A8BC2964844A000C938C /* ImageElement.swift */; };
 		DE4157572964BEEE00E0F566 /* ImageCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE57A8C229649367000C938C /* ImageCollectionCell.swift */; };
 		DE4157582964BEEE00E0F566 /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE57A8C029648F77000C938C /* TabData.swift */; };
+		DE41575A2964C04F00E0F566 /* ImageGalleryViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4157592964C04F00E0F566 /* ImageGalleryViewModelTests.swift */; };
+		DE41575C2964C05C00E0F566 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE41575B2964C05C00E0F566 /* HomeViewModelTests.swift */; };
+		DE41575E2964C06900E0F566 /* FavouritesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE41575D2964C06900E0F566 /* FavouritesViewModelTests.swift */; };
+		DE4157602964C07A00E0F566 /* ImageViewerViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE41575F2964C07A00E0F566 /* ImageViewerViewModelTests.swift */; };
+		DE4157622965691100E0F566 /* ImageGalleryViewController+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4157612965691100E0F566 /* ImageGalleryViewController+Collection.swift */; };
+		DE4157642965695A00E0F566 /* FavouritesViewController+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4157632965695A00E0F566 /* FavouritesViewController+Collection.swift */; };
+		DE41576E29656DA600E0F566 /* FavouritesViewController+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4157632965695A00E0F566 /* FavouritesViewController+Collection.swift */; };
+		DE41576F29656DAB00E0F566 /* ImageGalleryViewController+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4157612965691100E0F566 /* ImageGalleryViewController+Collection.swift */; };
 		DE57A8B9296481EC000C938C /* FavouritesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE57A8B8296481EC000C938C /* FavouritesManager.swift */; };
 		DE57A8BB296481FC000C938C /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE57A8BA296481FC000C938C /* UserDefaultsManager.swift */; };
 		DE57A8BD2964844A000C938C /* ImageElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE57A8BC2964844A000C938C /* ImageElement.swift */; };
@@ -124,6 +132,12 @@
 		DE0D7F68296462EC00E6900F /* ImageViewerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerViewModel.swift; sourceTree = "<group>"; };
 		DE0D7F6A2964647500E6900F /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		DE41573D2964B50000E0F566 /* FavouriteImageCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteImageCollectionCell.swift; sourceTree = "<group>"; };
+		DE4157592964C04F00E0F566 /* ImageGalleryViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGalleryViewModelTests.swift; sourceTree = "<group>"; };
+		DE41575B2964C05C00E0F566 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		DE41575D2964C06900E0F566 /* FavouritesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewModelTests.swift; sourceTree = "<group>"; };
+		DE41575F2964C07A00E0F566 /* ImageViewerViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerViewModelTests.swift; sourceTree = "<group>"; };
+		DE4157612965691100E0F566 /* ImageGalleryViewController+Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageGalleryViewController+Collection.swift"; sourceTree = "<group>"; };
+		DE4157632965695A00E0F566 /* FavouritesViewController+Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavouritesViewController+Collection.swift"; sourceTree = "<group>"; };
 		DE57A8B8296481EC000C938C /* FavouritesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesManager.swift; sourceTree = "<group>"; };
 		DE57A8BA296481FC000C938C /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		DE57A8BC2964844A000C938C /* ImageElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageElement.swift; sourceTree = "<group>"; };
@@ -224,6 +238,10 @@
 			isa = PBXGroup;
 			children = (
 				DE0D7EEA2964585B00E6900F /* LoremPicsumTests.swift */,
+				DE41575B2964C05C00E0F566 /* HomeViewModelTests.swift */,
+				DE4157592964C04F00E0F566 /* ImageGalleryViewModelTests.swift */,
+				DE41575D2964C06900E0F566 /* FavouritesViewModelTests.swift */,
+				DE41575F2964C07A00E0F566 /* ImageViewerViewModelTests.swift */,
 			);
 			path = LoremPicsumTests;
 			sourceTree = "<group>";
@@ -418,6 +436,7 @@
 			isa = PBXGroup;
 			children = (
 				DE0D7F5E296462B000E6900F /* ImageGalleryViewController.swift */,
+				DE4157612965691100E0F566 /* ImageGalleryViewController+Collection.swift */,
 				DE57A8C4296493EF000C938C /* Views */,
 			);
 			path = View;
@@ -434,8 +453,9 @@
 		DE0D7F542964625C00E6900F /* View */ = {
 			isa = PBXGroup;
 			children = (
-				DE41573C2964B4EE00E0F566 /* Views */,
 				DE0D7F62296462CE00E6900F /* FavouritesViewController.swift */,
+				DE4157632965695A00E0F566 /* FavouritesViewController+Collection.swift */,
+				DE41573C2964B4EE00E0F566 /* Views */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -526,6 +546,7 @@
 				DE0D7EE22964585B00E6900F /* Sources */,
 				DE0D7EE32964585B00E6900F /* Frameworks */,
 				DE0D7EE42964585B00E6900F /* Resources */,
+				320994AD5DCDEF8F6528C021 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -545,6 +566,7 @@
 				DE0D7EEC2964585C00E6900F /* Sources */,
 				DE0D7EED2964585C00E6900F /* Frameworks */,
 				DE0D7EEE2964585C00E6900F /* Resources */,
+				ADC5D4A51352CEAB1DB69C1D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -580,7 +602,7 @@
 				};
 			};
 			buildConfigurationList = DE0D7ECB2964585A00E6900F /* Build configuration list for PBXProject "LoremPicsum" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -709,6 +731,40 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		320994AD5DCDEF8F6528C021 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoremPicsumTests/Pods-LoremPicsumTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoremPicsumTests/Pods-LoremPicsumTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoremPicsumTests/Pods-LoremPicsumTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADC5D4A51352CEAB1DB69C1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoremPicsumUITests/Pods-LoremPicsumUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoremPicsumUITests/Pods-LoremPicsumUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoremPicsumUITests/Pods-LoremPicsumUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		DE0D7F4129645B7D00E6900F /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
@@ -745,6 +801,7 @@
 				DE57A8BF29648A9A000C938C /* UIImageView+Helper.swift in Sources */,
 				DE41573E2964B50000E0F566 /* FavouriteImageCollectionCell.swift in Sources */,
 				DE0D7F1F29645AE400E6900F /* ImageService.swift in Sources */,
+				DE4157642965695A00E0F566 /* FavouritesViewController+Collection.swift in Sources */,
 				DE0D7F65296462D700E6900F /* FavouritesViewModel.swift in Sources */,
 				DE0D7F5B2964629900E6900F /* HomeViewController.swift in Sources */,
 				DE0D7F2229645AE400E6900F /* APIEndPoints.swift in Sources */,
@@ -754,6 +811,7 @@
 				DE0D7F1D29645AE400E6900F /* AppCoordinator.swift in Sources */,
 				DE0D7F2329645AE400E6900F /* String+Helper.swift in Sources */,
 				DE0D7F2129645AE400E6900F /* UIFactory.swift in Sources */,
+				DE4157622965691100E0F566 /* ImageGalleryViewController+Collection.swift in Sources */,
 				DE0D7F2429645AE400E6900F /* ApiManager.swift in Sources */,
 				DE57A8C329649367000C938C /* ImageCollectionCell.swift in Sources */,
 				DE57A8B9296481EC000C938C /* FavouritesManager.swift in Sources */,
@@ -771,7 +829,10 @@
 			files = (
 				DE4157522964BEEE00E0F566 /* ImageGalleryViewModel.swift in Sources */,
 				DE41574F2964BEEE00E0F566 /* FavouritesViewModel.swift in Sources */,
+				DE41576E29656DA600E0F566 /* FavouritesViewController+Collection.swift in Sources */,
+				DE41575A2964C04F00E0F566 /* ImageGalleryViewModelTests.swift in Sources */,
 				DE4157442964BEEE00E0F566 /* AppCoordinator.swift in Sources */,
+				DE41575C2964C05C00E0F566 /* HomeViewModelTests.swift in Sources */,
 				DE4157572964BEEE00E0F566 /* ImageCollectionCell.swift in Sources */,
 				DE4157552964BEEE00E0F566 /* APIEndPoints.swift in Sources */,
 				DE4157462964BEEE00E0F566 /* ImageLoadingCell.swift in Sources */,
@@ -783,6 +844,8 @@
 				DE4157542964BEEE00E0F566 /* Coordinator.swift in Sources */,
 				DE4157562964BEEE00E0F566 /* ImageElement.swift in Sources */,
 				DE41574C2964BEEE00E0F566 /* ImageGalleryViewController.swift in Sources */,
+				DE41575E2964C06900E0F566 /* FavouritesViewModelTests.swift in Sources */,
+				DE4157602964C07A00E0F566 /* ImageViewerViewModelTests.swift in Sources */,
 				DE0D7EEB2964585B00E6900F /* LoremPicsumTests.swift in Sources */,
 				DE4157422964BEEE00E0F566 /* ImageService.swift in Sources */,
 				DE4157512964BEEE00E0F566 /* HomeViewController.swift in Sources */,
@@ -790,6 +853,7 @@
 				DE4157452964BEEE00E0F566 /* FavouriteImageCollectionCell.swift in Sources */,
 				DE4157412964BEEE00E0F566 /* ImageServiceProtocol.swift in Sources */,
 				DE4157532964BEEE00E0F566 /* UserDefaultsManager.swift in Sources */,
+				DE41576F29656DAB00E0F566 /* ImageGalleryViewController+Collection.swift in Sources */,
 				DE4157492964BEEE00E0F566 /* UIImageView+Helper.swift in Sources */,
 				DE41574B2964BEEE00E0F566 /* MockImageService.swift in Sources */,
 				DE41574A2964BEEE00E0F566 /* UIFactory.swift in Sources */,
@@ -885,7 +949,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -939,7 +1003,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1025,13 +1089,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L8Q8U8SHDF;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = in.LoremPicsumTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoremPicsum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LoremPicsum";
 			};
 			name = Debug;
@@ -1046,13 +1113,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L8Q8U8SHDF;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = in.LoremPicsumTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoremPicsum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LoremPicsum";
 			};
 			name = Release;
@@ -1066,12 +1136,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L8Q8U8SHDF;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = in.LoremPicsumUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = LoremPicsum;
 			};
 			name = Debug;
@@ -1085,12 +1159,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L8Q8U8SHDF;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = in.LoremPicsumUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = LoremPicsum;
 			};
 			name = Release;

@@ -9,13 +9,13 @@ import Foundation
 import UIKit
 
 class ImageGalleryViewModel {
-    private var navigation: HomeCoordinator!
+    private var navigation: HomeNavigation!
     private var apiService: ImageServiceProtocol!
     private let pageLimit: Int = 30
     private var currentPage: Int = 1
     private var images: [ImageElement] = []
     
-    init(navigation: HomeCoordinator!, apiService: ImageServiceProtocol!) {
+    init(navigation: HomeNavigation!, apiService: ImageServiceProtocol!) {
         self.navigation = navigation
         self.apiService = apiService
     }
