@@ -33,7 +33,7 @@ extension UIImageView {
         DispatchQueue.global().async {
             URLSession.shared.dataTask(with: confirmedURL) { data, response, error in
                 guard let httpURLResponse = response as? HTTPURLResponse, httpURLResponse.statusCode == 200,
-                      let data = data, error == nil, //let mimeType = response?.mimeType, mimeType.hasPrefix("image"),
+                      let data = data, error == nil,
                       let image = UIImage(data: data) else {
                     DispatchQueue.main.async { [weak self] in
                         self?.image = placeholderImage

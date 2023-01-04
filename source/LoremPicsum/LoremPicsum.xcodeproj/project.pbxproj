@@ -292,8 +292,8 @@
 		DE0D7F062964590A00E6900F /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				DE0D7EE12964585B00E6900F /* Info.plist */,
 				DE0D7F3F29645B3F00E6900F /* AppDelegate.swift */,
+				DE0D7EE12964585B00E6900F /* Info.plist */,
 			);
 			name = SupportingFiles;
 			sourceTree = "<group>";
